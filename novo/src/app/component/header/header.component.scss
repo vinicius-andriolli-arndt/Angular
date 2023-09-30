@@ -1,0 +1,33 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #b98b21;
+    color: #fff;
+  }
+  
+  .logo img {
+    max-width: 100px; /* Defina o tamanho máximo da sua logo */
+  }
+
+  .company-name h1 {
+    font-size: 24px; /* Tamanho da fonte do nome da empresa */
+    text-shadow: 3px 3px 4px #000; /* Adicione um contorno preto ao texto */
+    margin: 0; /* Remova a margem padrão do h1 */
+  }
+  
+  .buttons .button {
+    background-color: #007bff; /* Cor de fundo dos botões */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px; /* Espaçamento entre os botões */
+  }
+  
+  .buttons .button:hover {
+    background-color: #0056b3; /* Cor de fundo dos botões ao passar o mouse */
+  }
