@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { CadastrarProdutoComponent } from './cadastrar-produto.component';
 import { CadastrarRoutingModule } from './cadastrar-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -14,7 +15,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     CadastrarRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatButtonModule
   ]
 })
 export class CadastrarProdutoModule { }

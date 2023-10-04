@@ -12,6 +12,23 @@
     max-width: 100px; /* Defina o tamanho máximo da sua logo */
   }
 
+  .botao {
+    display: inline-block;
+    padding: 10px 20px; /* Ajuste o espaçamento conforme necessário */
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #007BFF; /* Cor da borda do botão */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 5px; /* Borda arredondada */
+    font-weight: bold;
+    cursor: pointer; /* Mude o cursor para indicar que é clicável */
+    margin-right: 10px; /* Espaçamento à direita entre os botões */
+  }
+  .botao:hover {
+    background-color: #0056b3; /* Cor de fundo do botão no hover */
+  }  
+
   .company-name h1 {
     font-size: 24px; /* Tamanho da fonte do nome da empresa */
     text-shadow: 3px 3px 4px #000; /* Adicione um contorno preto ao texto */
